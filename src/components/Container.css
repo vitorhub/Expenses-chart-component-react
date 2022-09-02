@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.interno{
+    width: 370px;
+    height: 440px;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+.gasto-dia{
+    width: 40px;
+    height: 25px;
+    background-color: #392316;
+    border-radius: 5px;
+    visibility: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+}
+.barra{
+    width: 35px;
+    margin: 6px;
+    border-radius: 5px;
+}
+.div-externa{
+    color: white;
+    width: fit-content;
+    margin-top: auto;
+}
+.dias{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    position: relative;
+}
+.balanco{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #EC755D;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+.balanco .balanco-total{
+
+    margin-left: 10px;
+}
+.balanco .balanco-total h3{
+    font-weight: lighter;
+}
+
+.interno .titulo1{
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.secao-base{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 40px;
+    align-items: flex-end;
+    align-self: flex-end;
+    position: relative;
+}
+.percentual{
+    margin-right: 20px;
+}
+.percentual h6{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.total-mes h3{
+    font-size: 2rem;
+}
+.div-externa small{
+    color: #575353;
+    font-weight: 700;
+}
+.percentual small{
+    font-weight: 700;
+}
+.total-mes{
+    margin: 0 20px;
+}
